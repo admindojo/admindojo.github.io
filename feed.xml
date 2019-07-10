@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>blog.admindojo.org</title>
+    <link href="https://blog.admindojo.org/feed.xml" rel="self" />
+    <link href="https://blog.admindojo.org" />
+    <updated>2019-07-11T01:05:46+02:00</updated>
+    <author>
+        <name>marvin</name>
+    </author>
+    <id>https://blog.admindojo.org</id>
+
+    <entry>
+        <title>a new build</title>
+        <author>
+            <name>marvin</name>
+        </author>
+        <link href="https://blog.admindojo.org/a-new-build/"/>
+        <id>https://blog.admindojo.org/a-new-build/</id>
+
+        <updated>2019-07-11T00:25:05+02:00</updated>
+            <summary>
+                <![CDATA[
+                    i build this
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                i build this
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>homelab 1</title>
+        <author>
+            <name>marvin</name>
+        </author>
+        <link href="https://blog.admindojo.org/homelab-1/"/>
+        <id>https://blog.admindojo.org/homelab-1/</id>
+
+        <updated>2019-07-11T00:25:11+02:00</updated>
+            <summary>
+                <![CDATA[
+                    thisis homelab
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                thisis homelab
+            ]]>
+        </content>
+    </entry>
+</feed>
