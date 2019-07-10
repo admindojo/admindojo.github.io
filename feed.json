@@ -9,33 +9,5 @@
         "name": "marvin"
     },
     "items": [
-        {
-            "id": "https://blog.admindojo.org/a-new-build/",
-            "url": "https://blog.admindojo.org/a-new-build/",
-            "title": "a new build",
-            "summary": "i build this",
-            "content_html": "i build this",
-            "author": {
-                "name": "marvin"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-07-11T00:21:15+02:00",
-            "date_modified": "2019-07-11T00:25:05+02:00"
-        },
-        {
-            "id": "https://blog.admindojo.org/homelab-1/",
-            "url": "https://blog.admindojo.org/homelab-1/",
-            "title": "homelab 1",
-            "summary": "thisis homelab",
-            "content_html": "thisis homelab",
-            "author": {
-                "name": "marvin"
-            },
-            "tags": [
-            ],
-            "date_published": "2019-07-11T00:21:07+02:00",
-            "date_modified": "2019-07-11T00:25:11+02:00"
-        }
     ]
 }
