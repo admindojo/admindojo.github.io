@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>blog.admindojo.org</title>
-    <link href="https://admindojo.github.io/feed.xml" rel="self" />
-    <link href="https://admindojo.github.io" />
-    <updated>2019-07-11T01:28:36+02:00</updated>
+    <link href="https://blog.admindojo.org/feed.xml" rel="self" />
+    <link href="https://blog.admindojo.org" />
+    <updated>2019-07-11T01:29:28+02:00</updated>
     <author>
         <name>marvin</name>
     </author>
-    <id>https://admindojo.github.io</id>
+    <id>https://blog.admindojo.org</id>
 
     <entry>
         <title>a new build</title>
         <author>
             <name>marvin</name>
         </author>
-        <link href="https://admindojo.github.io/a-new-build/"/>
-        <id>https://admindojo.github.io/a-new-build/</id>
+        <link href="https://blog.admindojo.org/a-new-build/"/>
+        <id>https://blog.admindojo.org/a-new-build/</id>
 
         <updated>2019-07-11T00:25:05+02:00</updated>
             <summary>
@@ -34,8 +34,8 @@
         <author>
             <name>marvin</name>
         </author>
-        <link href="https://admindojo.github.io/homelab-1/"/>
-        <id>https://admindojo.github.io/homelab-1/</id>
+        <link href="https://blog.admindojo.org/homelab-1/"/>
+        <id>https://blog.admindojo.org/homelab-1/</id>
 
         <updated>2019-07-11T00:25:11+02:00</updated>
             <summary>
