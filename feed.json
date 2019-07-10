@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "blog.admindojo.org",
     "description": "",
-    "home_page_url": "https://blog.admindojo.org",
-    "feed_url": "https://blog.admindojo.org/feed.json",
+    "home_page_url": "http://blog.admindojo.org",
+    "feed_url": "http://blog.admindojo.org/feed.json",
     "user_comment": "",
     "author": {
         "name": "marvin"
     },
     "items": [
         {
-            "id": "https://blog.admindojo.org/a-new-build/",
-            "url": "https://blog.admindojo.org/a-new-build/",
+            "id": "http://blog.admindojo.org/a-new-build/",
+            "url": "http://blog.admindojo.org/a-new-build/",
             "title": "a new build",
             "summary": "i build this",
             "content_html": "i build this",
@@ -24,8 +24,8 @@
             "date_modified": "2019-07-11T00:25:05+02:00"
         },
         {
-            "id": "https://blog.admindojo.org/homelab-1/",
-            "url": "https://blog.admindojo.org/homelab-1/",
+            "id": "http://blog.admindojo.org/homelab-1/",
+            "url": "http://blog.admindojo.org/homelab-1/",
             "title": "homelab 1",
             "summary": "thisis homelab",
             "content_html": "thisis homelab",
