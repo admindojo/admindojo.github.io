@@ -4,4 +4,48 @@
 <url>
 <loc>https://blog.admindojo.org/</loc>
 </url>
+<url>
+<loc>https://blog.admindojo.org/bashblog/</loc>
+<lastmod>2019-07-11T22:33:28+02:00</lastmod>
+<image:image>
+<image:loc>https://blog.admindojo.org/media\posts\7/demo-md.png</image:loc>
+<image:title><![CDATA[screenshot of slashlog]]></image:title>
+</image:image>
+<image:image>
+<image:loc>file://C:/Users/marvin/Dropbox/Publii/sites/slashlog/input/media/posts/1/demo.png</image:loc>
+<image:title><![CDATA[bashblog screenshot]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://blog.admindojo.org/check-the-file-format-while-debugging-config-files/</loc>
+<lastmod>2019-07-11T22:15:03+02:00</lastmod>
+</url>
+<url>
+<loc>https://blog.admindojo.org/dont-be-afraid-just-ship-the-mvp/</loc>
+<lastmod>2019-07-11T22:38:56+02:00</lastmod>
+<image:image>
+<image:loc>https://blog.admindojo.org/media\posts\10/Anmerkung-2019-07-11-223544.png</image:loc>
+<image:title><![CDATA[screenshot of HN submission]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://blog.admindojo.org/media\posts\10/Anmerkung-2019-07-11-223544.png</image:loc>
+<image:title><![CDATA[Screenshot of HN submission]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://blog.admindojo.org/every-tool-deserves-a-name/</loc>
+<lastmod>2019-07-11T21:37:09+02:00</lastmod>
+</url>
+<url>
+<loc>https://blog.admindojo.org/taskbutler-milestone-1/</loc>
+<lastmod>2019-07-11T22:21:40+02:00</lastmod>
+<image:image>
+<image:loc>file://C:/Users/marvin/Dropbox/Publii/sites/slashlog/input/media/posts/6//feature-paper.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>file://C:/Users/marvin/Dropbox/Publii/sites/slashlog/input/media/posts/6//feature-office.gif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
 </urlset>
