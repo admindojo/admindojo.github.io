@@ -3,12 +3,83 @@
     <title>blog.admindojo.org</title>
     <link href="https://blog.admindojo.org/feed.xml" rel="self" />
     <link href="https://blog.admindojo.org" />
-    <updated>2019-07-14T22:21:57+02:00</updated>
+    <updated>2019-07-14T22:35:45+02:00</updated>
     <author>
         <name>marvin</name>
     </author>
     <id>https://blog.admindojo.org</id>
 
+    <entry>
+        <title>Everything Is Your Own Fault - Downside of virt-manager</title>
+        <author>
+            <name>marvin</name>
+        </author>
+        <link href="https://blog.admindojo.org/everything-is-your-own-fault-downside-of-virt-manager/"/>
+        <id>https://blog.admindojo.org/everything-is-your-own-fault-downside-of-virt-manager/</id>
+
+        <updated>2019-07-14T22:34:52+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.admindojo.org/media/posts/14/all-of-the-devices-give-you-more-granular-control-through-36225132.png" alt="GUI Meme" />
+                    <p>Using libvirt and virt-manager does reduce the number of known features that need attention, but it also doesn't offer you any help by providing useful features.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.admindojo.org/media/posts/14/all-of-the-devices-give-you-more-granular-control-through-36225132.png" alt="GUI Meme" />
+                <p>Using libvirt and virt-manager does reduce the number of known features that need attention, but it also doesn't offer you any help by providing useful features.</p>
+
+<p>After setting up libvirt with virt-manager I followed some guides on performance optimisation - <br><br>Reading these guides made it clear that real performance optimisation can quickly get complex and requires deep knowledge of kernel features.</p>
+<p>Turns out that management tools like oVirt provide a one-click solution to apply many optimization settings at once:<a href="https://www.ovirt.org/develop/release-management/features/virt/high-performance-vm.html" target="_blank" rel="noopener noreferrer"> oVirt 4.2 introducing High Performance VM profile</a> 😒</p>
+<figure class="post__image post__image--center" ><img src="https://blog.admindojo.org/media/posts/14//Screenshot_from_2017-06-15-10-46-39.png" alt="Screenshot of high performance feature" width="1253" height="839">
+<figcaption ><a href="https://www.ovirt.org/develop/release-management/features/virt/high-performance-vm.html" target="_blank" rel="noopener noreferrer">Source oVirt documentation</a></figcaption>
+</figure>
+<p class="align-left">It's nice to learn about all these features by reading documentation and guides - but sometimes a little bit more convenience is just nice to have.</p>
+<p><img class="post__image--center" src="https://blog.admindojo.org/media/posts/14/all-of-the-devices-give-you-more-granular-control-through-36225132.png" alt="" width="500" height="478"></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>VM mass production with libvirt/virt-manager</title>
+        <author>
+            <name>marvin</name>
+        </author>
+        <link href="https://blog.admindojo.org/vm-mass-production-kvmvirt-manager/"/>
+        <id>https://blog.admindojo.org/vm-mass-production-kvmvirt-manager/</id>
+
+        <updated>2019-07-14T22:34:05+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.admindojo.org/media/posts/3/ivan-bandura-N_FDXbXwQmc-unsplash.jpg" alt="Picture of trucks" />
+                    <p>It can be tempting to use fancy tools like XEN, VMware or Proxmox - but these tools also come with additional requirements, overhead and quite a large documentation.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.admindojo.org/media/posts/3/ivan-bandura-N_FDXbXwQmc-unsplash.jpg" alt="Picture of trucks" />
+                <p>It can be tempting to use fancy tools like XEN, VMware or Proxmox - but these tools also come with additional requirements, overhead and quite a large documentation.</p>
+
+<p>And while these specialized tools can simplify complex infrastructures, the setup shouldn't delay the first milestone: a working host that quickly spawns new VMs.<br>Choosing the simplest tool for the job helps to reach a stable milestone faster.</p>
+<p class="msg msg--info msg--highlight  msg--success">A stable state can be upgraded quicker than a feature-rich state that doesn't work.</p>
+<h2 id="mcetoc_1dfmj5lm10">Almost bare metal: KVM</h2>
+<p><span style="font-size: inherit;">Even though container would use less resources, VMs are a bit easier to work with. I'm going with KVM, QEMU, libvirt and virt-manager on a Ubuntu Bionic LTS host.<br><br>I'm prefer a universal Ubuntu host over a specialized hypervisor/OS - like Xen or oVirt(which requires RedHat/CentOS) - simply because I know Ubuntu and the OS is still fully accessible(to install stuff in parallel).<br><br>Virt-manager doesn't look fancy, but gets the job done - and the </span><a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-creating_guests_with_virt_manager" target="_blank" rel="noopener noreferrer" style="font-size: inherit;">documentation at RedHat is great.</a></p>
+<h2 id="mcetoc_1dfmhiqvr1">apt install -y virt-manager</h2>
+Installation is simple: <code>sudo apt install -y virt-manager</code> installs everything needed.<br>
+<h2 id="mcetoc_1dfmhimde0">Shortcut: skipping dedicated DHCP/DNS</h2>
+<p class="msg msg--highlight ">Setting up a special subnet, nameserver or even VLAN can be fun - but 10 VMs won't kill the home router.</p>
+<p>This does depend on the internet connection, but typically a internet service provider does supply/require some sort of router which usually has DHCP and DNS enabled by default - why not just use these in the beginning?!</p>
+<p>The AVM FritzBox router is the default ISP router in Germany and meets the requirements. It also provides the local domain<code>fritz.box</code> which - isn't pretty, but - works out of the box. The main goal is to get started quickly -<code>ssh $name.fritz.box</code> is fine. </p>
+<p class="msg msg--highlight ">At the time the homelab requires a dedicated DNS/DHCP a global configuration management tool like Puppet should be in place anyway.</p>
+<p><img class="post__image--center align-center" src="https://blog.admindojo.org/media/posts/3/WmRbmf5.png" alt="Meme: It is always DNS" width="601" height="358"></p>
+<p class="msg msg--info"><strong>Bonus TIL</strong>: The FritzBox doesn't handle duplicate hostnames very well. Check DNS and remove duplicates manually.</p>
+<h2 id="mcetoc_1dfmkhcuf1">Building bridges</h2>
+<p>To use the existing DHCP server, all VMs require full network access - which isn't the default in most cases. Libvirt comes with a NAT network by default, which is nice to not interfere with the existing network, but it makes things complicated: NAT would require thinks like port-forwarding on the host and a reverse-proxy for web servers - maybe later.<br><br>For now, each VM should get it's IP directly via DHCP from the router - direct access via port 22 from anywhere within the network.</p>
+<p>Nice side effect: <a href="https://netplan.io/examples#configuring-network-bridges" target="_blank" rel="noopener noreferrer">This setup only requires 5 lines in the netplan configuration.</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Homelab - just a HDD away</title>
         <author>
