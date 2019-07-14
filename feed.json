@@ -13,8 +13,8 @@
             "id": "https://blog.admindojo.org/homelab-just-a-hhd-away/",
             "url": "https://blog.admindojo.org/homelab-just-a-hhd-away/",
             "title": "Homelab - just a HDD away",
-            "summary": "<p>Setting up a homelab doesn't require much. A second hard drive in a PC is enough to start.<br><br>After realizing that magnetic HDDs were good enough for our ancestors' servers, I decided to just start with what I have available rather than waiting for the day I'm able to afford my dream - SSD only, dual CPU - server(-farm).<br>A 1TB HDD in my primary workstation will do - since it will do all the hard work, any notebook will do for administration.</p>\n",
-            "content_html": "<p>Setting up a homelab doesn't require much. A second hard drive in a PC is enough to start.<br><br>After realizing that magnetic HDDs were good enough for our ancestors' servers, I decided to just start with what I have available rather than waiting for the day I'm able to afford my dream - SSD only, dual CPU - server(-farm).<br>A 1TB HDD in my primary workstation will do - since it will do all the hard work, any notebook will do for administration.</p>\n\n<p>A homlab doesn't even require a physical network since most of today's infrastructure is virtualized anyway.</p>\n<p class=\"msg msg--highlight \">Start small and scale when needed is an important strategy to learn too.</p>\n<p>Surely, the required hardware does depend on the goal, but a single (decent) PC will work in most cases.</p>\n<p class=\"msg msg--highlight \">Even an unoptimized Ubuntu VM will work great with only 1GB RAM/10GB HDD</p>\n<p>and, as long not all VMs are running at 100%, it's totally possible to overprovision the virtual infrastructure(which means the VM could use 1GB RAM - but all unused RAM is available to the other VMs as well).</p>\n<p>My main goal is to check out DevOps related tools and get a feeling of how much work it is to set up a proper infrastructure all by myself. It's much easier to test certain strategies - like load balancing - when a working infrastructure is just a boot away.</p>\n<p>So, lets get started - the first boot is just a matter of a few screws👏</p>",
+            "summary": "<p>Setting up a homelab doesn't require much.</p>\n<p class=\"msg msg--highlight \">A second hard drive in a PC is enough to start.</p>\n<p>After realizing that magnetic HDDs were good enough for our ancestors' servers, I decided to just start with what I have available rather than waiting for the day I'm able to afford my dream - SSD only, dual CPU - server(-farm).<br>A 1TB HDD in my primary workstation will do - since it will do all the hard work, any notebook will do for administration.</p>\n",
+            "content_html": "<p>Setting up a homelab doesn't require much.</p>\n<p class=\"msg msg--highlight \">A second hard drive in a PC is enough to start.</p>\n<p>After realizing that magnetic HDDs were good enough for our ancestors' servers, I decided to just start with what I have available rather than waiting for the day I'm able to afford my dream - SSD only, dual CPU - server(-farm).<br>A 1TB HDD in my primary workstation will do - since it will do all the hard work, any notebook will do for administration.</p>\n\n<p>A homlab doesn't even require a physical network since most of today's infrastructure is virtualized anyway.</p>\n<p class=\"msg msg--highlight \">Start small and scale when needed is an important strategy to learn too.</p>\n<p>Surely, the required hardware does depend on the goal, but a single (decent) PC will work in most cases.</p>\n<p class=\"msg msg--highlight \">Even an unoptimized Ubuntu VM will work great with only 1GB RAM/10GB HDD</p>\n<p>and, as long not all VMs are running at 100%, it's totally possible to overprovision the virtual infrastructure(which means the VM could use 1GB RAM - but all unused RAM is available to the other VMs as well).</p>\n<p>My main goal is to check out DevOps related tools and get a feeling of how much work it is to set up a proper infrastructure all by myself. It's much easier to test certain strategies - like load balancing - when a working infrastructure is just a boot away.</p>\n<p>So, lets get started - the first boot is just a matter of a few screws👏</p>",
             "image": "https://blog.admindojo.org/media/posts/1/taylor-vick-M5tzZtFCOfs-unsplash.jpg",
             "author": {
                 "name": "marvin"
@@ -22,7 +22,7 @@
             "tags": [
             ],
             "date_published": "2019-07-11T01:51:35+02:00",
-            "date_modified": "2019-07-13T22:10:55+02:00"
+            "date_modified": "2019-07-14T21:55:55+02:00"
         },
         {
             "id": "https://blog.admindojo.org/dont-be-afraid-just-ship-the-mvp/",
@@ -37,7 +37,7 @@
             "tags": [
             ],
             "date_published": "2019-06-19T22:14:00+02:00",
-            "date_modified": "2019-07-11T22:38:56+02:00"
+            "date_modified": "2019-07-14T21:56:31+02:00"
         },
         {
             "id": "https://blog.admindojo.org/check-the-file-format-while-debugging-config-files/",
@@ -51,7 +51,7 @@
             "tags": [
             ],
             "date_published": "2019-06-01T21:14:00+02:00",
-            "date_modified": "2019-07-11T22:15:03+02:00"
+            "date_modified": "2019-07-14T21:56:36+02:00"
         },
         {
             "id": "https://blog.admindojo.org/taskbutler-milestone-1/",
@@ -65,7 +65,7 @@
             "tags": [
             ],
             "date_published": "2019-04-16T21:30:00+02:00",
-            "date_modified": "2019-07-11T22:21:40+02:00"
+            "date_modified": "2019-07-14T21:56:03+02:00"
         },
         {
             "id": "https://blog.admindojo.org/bashblog/",
@@ -80,7 +80,7 @@
             "tags": [
             ],
             "date_published": "2019-02-13T21:31:00+01:00",
-            "date_modified": "2019-07-11T22:33:28+02:00"
+            "date_modified": "2019-07-14T21:56:16+02:00"
         },
         {
             "id": "https://blog.admindojo.org/every-tool-deserves-a-name/",
@@ -94,7 +94,7 @@
             "tags": [
             ],
             "date_published": "2019-02-11T21:30:00+01:00",
-            "date_modified": "2019-07-11T21:37:09+02:00"
+            "date_modified": "2019-07-14T21:56:10+02:00"
         }
     ]
 }
