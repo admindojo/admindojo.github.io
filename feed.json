@@ -101,8 +101,8 @@
             "id": "https://blog.admindojo.org/bashblog/",
             "url": "https://blog.admindojo.org/bashblog/",
             "title": "Bashblog ",
-            "summary": "<p>bashblog is a static blog generator, link list and knowledge base.<br>It solves a simple problem: How to preserve the thought or a summary of an article or video.</p>\n",
-            "content_html": "<p>bashblog is a static blog generator, link list and knowledge base.<br>It solves a simple problem: How to preserve the thought or a summary of an article or video.</p>\n\n<figure class=\"post__image post__image--center\" ><img src=\"file://C:/Users/marvin/Dropbox/Publii/sites/slashlog/input/media/posts/1/demo.png\" alt=\"bashblog screenshot\" width=\"1042\" height=\"653\">\n<figcaption >bashblog screenshot</figcaption>\n</figure>\n<p>bashblog receives links and videos via email and stores a text connected to it. This way an article and the gained knowledge keeps its value.</p>\n<div class=\"callout callout-primary\">\n<div>\n<p class=\"msg msg--info\"><em>Share via mail is available on every platform, in every app and tool.</em></p>\n<p><em>E-mail is lightweight and works everywhere, even in the subway.</em></p>\n<p class=\"msg msg--highlight  msg--info\">By storing whole sentences it becomes searchable and even indexable by Google.</p>\n<p>bashblog started as a simple script, but by <a href=\"https://github.com/6uhrmittag/bashblog\" target=\"_blank\" rel=\"noopener noreferrer\">publishing it to GitHub</a>, it thought me much more than scripting.</p>\n</div>\n</div>",
+            "summary": "<p>bashblog is a static blog generator, link list and knowledge base.<br>It solves a simple problem: How to preserve the thought or a summary of an article or video.</p>\n<img class=\"post__image--center\" src=\"https://blog.admindojo.org/media/posts/7/demo-md.png\" alt=\"\" width=\"749\" height=\"469\">",
+            "content_html": "<p>bashblog is a static blog generator, link list and knowledge base.<br>It solves a simple problem: How to preserve the thought or a summary of an article or video.</p>\n<img class=\"post__image--center\" src=\"https://blog.admindojo.org/media/posts/7/demo-md.png\" alt=\"\" width=\"749\" height=\"469\">\n<p>bashblog receives links and videos via email and stores a text connected to it. This way an article and the gained knowledge keeps its value.</p>\n<div class=\"callout callout-primary\">\n<div>\n<p class=\"msg msg--info\"><em>Share via mail is available on every platform, in every app and tool.</em></p>\n<p><em>E-mail is lightweight and works everywhere, even in the subway.</em></p>\n<p class=\"msg msg--highlight  msg--info\">By storing whole sentences it becomes searchable and even indexable by Google.</p>\n<p>bashblog started as a simple script, but by <a href=\"https://github.com/6uhrmittag/bashblog\" target=\"_blank\" rel=\"noopener noreferrer\">publishing it to GitHub</a>, it thought me much more than scripting.</p>\n</div>\n</div>",
             "image": "https://blog.admindojo.org/media/posts/7/demo-md.png",
             "author": {
                 "name": "marvin"
@@ -110,7 +110,7 @@
             "tags": [
             ],
             "date_published": "2019-02-13T21:31:00+01:00",
-            "date_modified": "2019-07-14T21:56:16+02:00"
+            "date_modified": "2019-07-17T22:06:14+02:00"
         },
         {
             "id": "https://blog.admindojo.org/every-tool-deserves-a-name/",
