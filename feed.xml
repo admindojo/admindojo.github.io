@@ -3,7 +3,7 @@
     <title>blog.admindojo.org</title>
     <link href="https://blog.admindojo.org/feed.xml" rel="self" />
     <link href="https://blog.admindojo.org" />
-    <updated>2019-07-17T22:06:20+02:00</updated>
+    <updated>2019-07-17T22:21:31+02:00</updated>
     <author>
         <name>marvin</name>
     </author>
@@ -48,7 +48,7 @@
         <link href="https://blog.admindojo.org/vm-mass-production-kvmvirt-manager/"/>
         <id>https://blog.admindojo.org/vm-mass-production-kvmvirt-manager/</id>
 
-        <updated>2019-07-14T22:34:05+02:00</updated>
+        <updated>2019-07-17T22:21:19+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.admindojo.org/media/posts/3/ivan-bandura-N_FDXbXwQmc-unsplash.jpg" alt="Picture of trucks" />
@@ -266,12 +266,12 @@ Installation is simple: <code>sudo apt install -y virt-manager</code> installs 
         <link href="https://blog.admindojo.org/bashblog/"/>
         <id>https://blog.admindojo.org/bashblog/</id>
 
-        <updated>2019-07-17T22:06:14+02:00</updated>
+        <updated>2019-07-17T22:20:48+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.admindojo.org/media/posts/7/demo-md.png" alt="screenshot of slashlog" />
                     <p>bashblog is a static blog generator, link list and knowledge base.<br>It solves a simple problem: How to preserve the thought or a summary of an article or video.</p>
-<img class="post__image--center" src="https://blog.admindojo.org/media/posts/7/demo-md.png" alt="" width="749" height="469">
+
                 ]]>
             </summary>
         <content type="html">
