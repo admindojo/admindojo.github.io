@@ -3,7 +3,7 @@
     <title>blog.admindojo.org</title>
     <link href="https://blog.admindojo.org/feed.xml" rel="self" />
     <link href="https://blog.admindojo.org" />
-    <updated>2019-07-19T07:08:34+02:00</updated>
+    <updated>2019-07-19T08:23:30+02:00</updated>
     <author>
         <name>marvin</name>
     </author>
@@ -17,15 +17,17 @@
         <link href="https://blog.admindojo.org/never-delete-rename-first/"/>
         <id>https://blog.admindojo.org/never-delete-rename-first/</id>
 
-        <updated>2019-07-19T07:08:14+02:00</updated>
+        <updated>2019-07-19T08:23:26+02:00</updated>
             <summary>
                 <![CDATA[
-                    In 2016 the hosting provider 123-Reg deleted 67 customer servers due to a bug in a script. The script checked should delete inactive servers, but the check was faulty. Read more: http://www.availabilitydigest.com/public_articles/1104/123-reg_outage.pdf For files: rename/move file first For VMs/Services: shutdown first Delete only after you verified that everyhing is working fine!
+                    <p>In 2016 the hosting provider 123-Reg deleted 67 customer servers due to a bug in a script. The script checked should delete inactive servers, but the check was faulty.</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p>In 2016 the hosting provider 123-Reg deleted 67 customer servers due to a bug in a script. The script checked should delete inactive servers, but the check was faulty.</p>
+
 <p>Read more: <a href="http://www.availabilitydigest.com/public_articles/1104/123-reg_outage.pdf" target="_blank" rel="noopener noreferrer">http://www.availabilitydigest.com/public_articles/1104/123-reg_outage.pdf</a></p>
 <p class="msg msg--info"><strong>For files</strong>: rename/move file first<br><strong>For VMs/Services</strong>: shutdown first<br><br>Delete only after you verified that everyhing is working fine!</p>
             ]]>
