@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://blog.admindojo.org/never-delete-rename-first/",
+            "url": "https://blog.admindojo.org/never-delete-rename-first/",
+            "title": "Never delete - rename first!",
+            "summary": "In 2016 the hosting provider 123-Reg deleted 67 customer servers due to a bug in a script. The script checked should delete inactive servers, but the check was faulty. Read more: http://www.availabilitydigest.com/public_articles/1104/123-reg_outage.pdf For files: rename/move file first For VMs/Services: shutdown first Delete only after you verified that everyhing is working fine!",
+            "content_html": "<p>In 2016 the hosting provider 123-Reg deleted 67 customer servers due to a bug in a script. The script checked should delete inactive servers, but the check was faulty.</p>\n<p>Read more: <a href=\"http://www.availabilitydigest.com/public_articles/1104/123-reg_outage.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.availabilitydigest.com/public_articles/1104/123-reg_outage.pdf</a></p>\n<p class=\"msg msg--info\"><strong>For files</strong>: rename/move file first<br><strong>For VMs/Services</strong>: shutdown first<br><br>Delete only after you verified that everyhing is working fine!</p>",
+            "author": {
+                "name": "marvin"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-07-19T07:00:02+02:00",
+            "date_modified": "2019-07-19T07:08:14+02:00"
+        },
+        {
             "id": "https://blog.admindojo.org/everything-is-your-own-fault-downside-of-virt-manager/",
             "url": "https://blog.admindojo.org/everything-is-your-own-fault-downside-of-virt-manager/",
             "title": "Everything Is Your Own Fault - Downside of virt-manager",
